@@ -1,9 +1,30 @@
 <head>
     <style>
-        
+        body {
+            margin: 30;
+            background-image: linear-gradient(rgb(134, 200, 255), rgb(59, 161, 244));
+            color: white;
+            text-align: center;
+        }
+        .title {
+            font-size: 60;
+            font-weight: 800;
+        }
+
+        input {
+            padding: 20;
+        }
+
+        #upload-file {
+            padding: 20;
+            width: 500;
+            height: 500;
+        }
     </style>
 </head>
 
 <body>
-    <p>Clinical Notes</p>
+    <p class="title">Clinical Notes</p>
+
+    <input type="file" id="upload-file"/>
 </body>
