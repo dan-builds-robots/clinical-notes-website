@@ -16,33 +16,35 @@
             margin-top: 50;
             margin-bottom: 20;
             font-size: 60;
-            font-weight: 600;
+            font-weight: 800;
         }
 
         input {
             padding: 20;
         }
 
-        #upload-file {
-            padding: 20;
-            width: 500;
-            height: 500;
-        }
         .container {
             width: 400;
             height: 500;
             background-color: white;
             color: black;
             display: inline-block;
-            padding: 10;
+            padding: 0 40 0 40;
             margin: 0 20 20 20;
             border-radius: 10px;
-            box-shadow: 5px 5px #4e4e4e;
+            box-shadow: 0 8px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+            overflow: scroll;
+            -webkit-box-sizing: border-box;
+            /* box-shadow: 5px 5px #4e4e4e; */
 
         }
         .section-title {
             font-size: 30;
             font-weight: 400;
+        }
+
+        .text {
+            text-align: left;
         }
         /* .horizontal {
             width: 8000px;
@@ -56,16 +58,33 @@
 
         <div class="container">
             <p class="section-title">Original Text</p>
-            <p class="text" id="original_text"></p>
+            <!-- <p class="text" id="original_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nisl orci, blandit at purus ut, ornare faucibus mauris. Etiam pharetra ultrices volutpat. Pellentesque vitae sollicitudin turpis. Vivamus molestie libero metus, quis semper dolor fermentum vel. Nulla porttitor sit amet nunc ac posuere. Nunc varius mi ut nulla imperdiet posuere. Praesent vitae nisl interdum, tincidunt metus vitae, tincidunt risus. Etiam purus erat, cursus ac dolor vel, bibendum viverra velit. Phasellus iaculis placerat felis, sed efficitur nisl vehicula quis. Aliquam pellentesque pulvinar bibendum. Integer sed nisl nibh. Morbi vel auctor dui, in lacinia enim. Suspendisse vulputate eu massa sed interdum. Sed in imperdiet lorem, eu venenatis metus. Sed dictum lectus non metus efficitur, vel mollis erat bibendum.
+
+            </p> -->
+            <!-- <input 
+            class="text" 
+            id="original_text" 
+            type="text" 
+            value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nisl orci, blandit at purus ut, ornare faucibus mauris. Etiam pharetra ultrices volutpat. Pellentesque vitae sollicitudin turpis. Vivamus molestie libero metus, quis semper dolor fermentum vel. Nulla porttitor sit amet nunc ac posuere. Nunc varius mi ut nulla imperdiet posuere. Praesent vitae nisl interdum, tincidunt metus vitae, tincidunt risus. Etiam purus erat, cursus ac dolor vel, bibendum viverra velit. Phasellus iaculis placerat felis, sed efficitur nisl vehicula quis. Aliquam pellentesque pulvinar bibendum. Integer sed nisl nibh. Morbi vel auctor dui, in lacinia enim. Suspendisse vulputate eu massa sed interdum. Sed in imperdiet lorem, eu venenatis metus. Sed dictum lectus non metus efficitur, vel mollis erat bibendum."
+        > -->
+            <textarea>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nisl orci, blandit at purus ut, ornare faucibus mauris. Etiam pharetra ultrices volutpat. Pellentesque vitae sollicitudin turpis. Vivamus molestie libero metus, quis semper dolor fermentum vel. Nulla porttitor sit amet nunc ac posuere. Nunc varius mi ut nulla imperdiet posuere. Praesent vitae nisl interdum, tincidunt metus vitae, tincidunt risus. Etiam purus erat, cursus ac dolor vel, bibendum viverra velit. Phasellus iaculis placerat felis, sed efficitur nisl vehicula quis. Aliquam pellentesque pulvinar bibendum. Integer sed nisl nibh. Morbi vel auctor dui, in lacinia enim. Suspendisse vulputate eu massa sed interdum. Sed in imperdiet lorem, eu venenatis metus. Sed dictum lectus non metus efficitur, vel mollis erat bibendum.
+
+            </textarea>
         </div>
 
         <div class="container">
             <p class="section-title">Summarized Text</p>
-            <p class="text" id="summarized_text"></p>
+            <p class="text" id="summarized_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nisl orci, blandit at purus ut, ornare faucibus mauris. Etiam pharetra ultrices volutpat. Pellentesque vitae sollicitudin turpis.
+            </p>
         </div>
         <div class="container">
             <p class="section-title">Simplified Text</p>
-            <p class="text" id="simplified_text"></p>
+            <p class="text" id="simplified_text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nisl orci, blandit at purus ut, ornare faucibus mauris. Etiam pharetra ultrices volutpat. Pellentesque vitae sollicitudin turpis. Vivamus molestie libero metus, quis semper dolor fermentum vel.
+            </p>
         </div>
     </div>
 
